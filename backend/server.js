@@ -10,7 +10,10 @@ const PORT = 8080;
 // middleware
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://your-online-frontend.com"],
+    origin: [
+      "http://localhost:5173",
+      "user-management-dashboard-frontend.vercel.app",
+    ],
   })
 );
 app.use(express.json());
