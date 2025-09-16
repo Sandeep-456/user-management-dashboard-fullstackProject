@@ -12,7 +12,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "user-management-dashboard-frontend.vercel.app",
+      "https://user-management-dashboard-f-git-8a08ae-sandys-projects-e9cf1f4a.vercel.app",
     ],
   })
 );
